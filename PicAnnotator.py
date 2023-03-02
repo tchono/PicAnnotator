@@ -7,7 +7,7 @@ if "labels" not in st.session_state:
 
 st.title("PicAnnotator")
 
-img = Image.open("datasets\道路.jpg")
+img = Image.open("datasets/道路.jpg")
 
 # 画像を表示し、st_cropperで切り取り範囲を指定する
 cropped_image = st_cropper(img, realtime_update=True, box_color="red")
